@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<IsPublishable>False</IsPublishable>
+		<Title>$(AssemblyName)</Title>
+		<Authors>LMayDev</Authors>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\InlineArrays.Gen\InlineArrays.Gen.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+	</ItemGroup>
+
+</Project>
